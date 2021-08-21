@@ -10,7 +10,11 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-:root {
+
+
+
+
+ :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -62,6 +66,7 @@
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
+
 
 *,
 *::before,
@@ -2401,6 +2406,8 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
+
+
 .form-select {
   display: block;
   width: 100%;
@@ -2754,6 +2761,8 @@ textarea.form-control-lg {
   z-index: 3;
 }
 
+
+
 .input-group-text {
   display: flex;
   align-items: center;
@@ -2943,7 +2952,7 @@ textarea.form-control-lg {
   padding-right: calc(1.5em + 0.75rem);
   background-position: top calc(0.375em + 0.1875rem) right calc(0.375em + 0.1875rem);
 }
-
+z
 .was-validated .form-select:invalid, .form-select.is-invalid {
   border-color: #dc3545;
 }
